@@ -3,6 +3,21 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  height: 80%;
+  width: 99%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container #searchbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -10,7 +25,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 3px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 2px;
 }
 
@@ -25,8 +42,13 @@
   width: 94%;
 }
 
-/*
-#lucky {
-    justify-content: center;
-}*/
+.toprightbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 /*# sourceMappingURL=SearchStyleSheet.css.map */
