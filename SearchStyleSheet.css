@@ -88,7 +88,6 @@
 }
 
 .advmain {
-  border: 1px black solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,12 +96,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 99%;
-  height: 99%;
+  width: 98%;
+  height: 98%;
 }
 
 .advmain .topfield {
-  border: 1px red solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,18 +129,24 @@
 
 .advmain #advsearchtext {
   font-family: 'Lucida Sans';
+  font-size: large;
   font-weight: 300;
   padding-left: 25px;
   text-decoration: underline;
 }
 
-.advmain .alltextfields {
-  border: 1px orange solid;
+.advmain #findpageswith {
+  font-family: 'Lucida Sans Regular';
   padding-left: 25px;
+}
+
+.advmain .alltextfields {
+  padding-left: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: small;
 }
 
 .advmain .alltextfields .row {
@@ -153,32 +157,32 @@
 }
 
 .advmain .alltextfields .row #text {
-  width: 30%;
+  width: 20%;
   font-family: 'Lucida Sans';
 }
 
 .advmain .alltextfields .row #box {
-  width: 50%;
+  width: 40%;
 }
 
 .advmain .searchbuttonsfield {
-  border: 1px green solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
   margin: 5px;
 }
 
 .advmain .searchbuttonsfield #button {
   padding: 5px;
   margin: 5px;
+  background-color: #4258f4;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
 }
 /*# sourceMappingURL=SearchStyleSheet.css.map */

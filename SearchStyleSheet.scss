@@ -56,14 +56,14 @@
 
 
 .advmain {    
-    border: 1px black solid;
+    //border: 1px black solid;
     display: flex;
     position: absolute;
     flex-direction: column;
-    width: 99%;
-    height: 99%;
+    width: 98%;
+    height: 98%;
     .topfield {
-        border: 1px red solid;
+        //border: 1px red solid;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -80,40 +80,49 @@
     }
     #advsearchtext {
         font-family:'Lucida Sans';
+        font-size: large;
         font-weight: 300;
         padding-left: 25px;
         text-decoration: underline;
     }
+    #findpageswith {
+        font-family: 'Lucida Sans Regular';
+        padding-left: 25px;
+    }
 
 
     .alltextfields {
-        border: 1px orange solid;
-        padding-left: 25px;
+        //border: 1px orange solid;
+        padding-left: 20px;
         flex-direction: column;
+        font-size: small;
         .row {
             display: flex;
             padding: 5px;
             #text {
-                width: 30%;
+                width: 20%;
                 font-family:'Lucida Sans';
             }
             #box {
-                width: 50%;
+                width: 40%;
             }
         }
     }
 
     .searchbuttonsfield {
-        border: 1px green solid;
+        //border: 1px green solid;
         display:flex;
-        align-items: center;
-        justify-content: center;
-        align-content: space-around;
+        justify-content: flex-end;
+        align-content: flex-end;
         margin: 5px;
         #button {
             padding: 5px;
             margin: 5px;
+            background-color: rgb(66, 88, 244);
+            color: white;
+            border-radius: 5px;
+            border: 0px;
+            
         }
-        
     }
 }
