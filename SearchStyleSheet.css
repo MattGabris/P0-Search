@@ -61,6 +61,12 @@
           justify-content: center;
 }
 
+.main .textboxfield #textbox {
+  border-radius: 25px;
+  padding: 10px;
+  width: 90%;
+}
+
 .main .searchbuttonsfield {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,9 +87,104 @@
   margin: 5px;
 }
 
-#textbox {
+.advmain {
+  border: 1px black solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 99%;
+  height: 99%;
+}
+
+.advmain .topfield {
+  border: 1px red solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 10%;
+  width: 100%;
+}
+
+.advmain .topfield img {
+  width: 150px;
+  height: 100px;
+}
+
+.advmain .topfield #button {
+  margin: 2px;
+}
+
+.advmain .imagefield {
+  border: 1px orange solid;
+  margin-top: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.advmain .imagefield img {
+  width: 20%;
+  height: 90%;
+}
+
+.advmain .textboxfield {
+  border: 1px yellow solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advmain .textboxfield #textbox {
   border-radius: 25px;
   padding: 10px;
   width: 90%;
+}
+
+.advmain .searchbuttonsfield {
+  border: 1px green solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  margin: 5px;
+}
+
+.advmain .searchbuttonsfield #button {
+  padding: 5px;
+  margin: 5px;
 }
 /*# sourceMappingURL=SearchStyleSheet.css.map */

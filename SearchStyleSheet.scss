@@ -31,6 +31,11 @@
         display:flex;
         align-items: center;
         justify-content: center;
+        #textbox {
+            border-radius: 25px;
+            padding: 10px;
+            width:90%;
+        }
     }
     .searchbuttonsfield {
         //border: 1px green solid;
@@ -47,10 +52,85 @@
     }
 
 }
-#textbox {
-    border-radius: 25px;
-    padding: 10px;
-    width:90%;
+
+
+
+.advmain {    
+    border: 1px black solid;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    .topfield {
+        border: 1px red solid;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 10%;
+        width: 100%;
+        img {
+            width: 150px;
+            height: 100px;
+        }
+        #button {
+            margin: 2px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .imagefield {
+        border: 1px orange solid;
+        margin-top: 12%;
+        display:flex;
+        align-items: center;
+        justify-content: flex-start;
+        img {
+            width: 20%;
+            height: 90%;
+        }
+    }
+    .textboxfield {
+        border: 1px yellow solid;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        #textbox {
+            border-radius: 25px;
+            padding: 10px;
+            width:90%;
+        }
+    }
+    .searchbuttonsfield {
+        border: 1px green solid;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
+        margin: 5px;
+        #button {
+            padding: 5px;
+            margin: 5px;
+        }
+        
+    }
 }
-
-
