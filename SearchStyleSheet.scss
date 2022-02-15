@@ -78,48 +78,31 @@
             margin: 2px;
         }
     }
+    #advsearchtext {
+        font-family:'Lucida Sans';
+        font-weight: 300;
+        padding-left: 25px;
+        text-decoration: underline;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .imagefield {
+    .alltextfields {
         border: 1px orange solid;
-        margin-top: 12%;
-        display:flex;
-        align-items: center;
-        justify-content: flex-start;
-        img {
-            width: 20%;
-            height: 90%;
+        padding-left: 25px;
+        flex-direction: column;
+        .row {
+            display: flex;
+            padding: 5px;
+            #text {
+                width: 30%;
+                font-family:'Lucida Sans';
+            }
+            #box {
+                width: 50%;
+            }
         }
     }
-    .textboxfield {
-        border: 1px yellow solid;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        #textbox {
-            border-radius: 25px;
-            padding: 10px;
-            width:90%;
-        }
-    }
+
     .searchbuttonsfield {
         border: 1px green solid;
         display:flex;

@@ -5,11 +5,6 @@
         <link rel="stylesheet" href="SearchStyleSheet.css">
     </head>
     <body> 
-        <div class="topbox">
-            
-            
-        </div>
-
         <div class="advmain">
             <div class="topfield">
             <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="Google Logo">
@@ -18,30 +13,36 @@
                         <input type="submit" value="Homepage" id="button">
                     </div>                    
                 </form>
+                
             </div>
+            <p id="advsearchtext">Advanced Search</p>
 
             
 
-            <div>
-                <form action="https://www.google.com/advanced_search">
-                    <div class="textboxfield">
-                        All these words: 
-                        <input type="text" placeholder="Input text here" name="q" id="textbox">
+            <div class="alltextfields">
+                <form method="get" action="https://www.google.com/search">
+
+                    <div class="row"> 
+                        <p id="text">All these words: </p> 
+                        <input type="text" placeholder="Input text here" name="as_q" id="box">
                     </div>  
-                    <div class="textboxfield">
-                        This exact word or phrase: <input type="text" placeholder="Input text here" name="q" id="textbox">
+                    <div class="row"> 
+                        <p id="text">This exact word or phrase: </p> 
+                        <input type="text" placeholder="Input text here" name="as_epq" id="box">
                     </div>  
-                    <div class="textboxfield">
-                        Any of these words: <input type="text" placeholder="Input text here" name="q" id="textbox">
+                    <div class="row"> 
+                        <p id="text">Any of these words: </p> 
+                        <input type="text" placeholder="Input text here" name="as_oq" id="box">
                     </div>  
-                    <div class="textboxfield">
-                        None of these words: <input type="text" placeholder="Input text here" name="q" id="textbox">
+                    <div class="row"> 
+                        <p id="text">None of these words: </p>
+                        <input type="text" placeholder="Input text here" name="as_eq" id="box">
                     </div>  
+                   
 
 
                     <div class="searchbuttonsfield">
-                        <input type="submit" value="Google Search" name="btnK" id="button">
-                        <input type="submit" value="I'm Feeling Lucky" name="btnI" id="button">
+                        <input type="submit" value="Google Search" id="button">
                     </div>
                 </form>
             </div>

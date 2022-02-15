@@ -129,42 +129,36 @@
   margin: 2px;
 }
 
-.advmain .imagefield {
+.advmain #advsearchtext {
+  font-family: 'Lucida Sans';
+  font-weight: 300;
+  padding-left: 25px;
+  text-decoration: underline;
+}
+
+.advmain .alltextfields {
   border: 1px orange solid;
-  margin-top: 12%;
+  padding-left: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.advmain .alltextfields .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  padding: 5px;
 }
 
-.advmain .imagefield img {
-  width: 20%;
-  height: 90%;
+.advmain .alltextfields .row #text {
+  width: 30%;
+  font-family: 'Lucida Sans';
 }
 
-.advmain .textboxfield {
-  border: 1px yellow solid;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.advmain .textboxfield #textbox {
-  border-radius: 25px;
-  padding: 10px;
-  width: 90%;
+.advmain .alltextfields .row #box {
+  width: 50%;
 }
 
 .advmain .searchbuttonsfield {
