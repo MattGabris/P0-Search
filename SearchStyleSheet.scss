@@ -1,3 +1,21 @@
-.searchbox {
-
+/*searchbox contains the text box and the button*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 3px solid black;
+    padding: 2px;
 }
+.button {
+    margin:2px;
+    border-radius: 2px;
+}
+.textbox {
+    border-radius: 25px;
+    padding: 5px;
+    width:94%;
+}
+/*
+#lucky {
+    justify-content: center;
+}*/
